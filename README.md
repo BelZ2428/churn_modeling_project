@@ -17,7 +17,7 @@ and provide an interpretable, business-oriented conclusion.
 ## Dataset
 The project uses the **Churn_Modelling.csv** dataset (originally from Kaggle):
 
-🔗 https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling/data
+🔗 [https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling/data](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling/data)
 
 **Target variable:**
 - `Exited = 1` → customer churned (left the bank)
