@@ -1,6 +1,6 @@
-# churn_modeling_project
-ML. The goal of this project is to predict customer churn for a retail bank dataset.
-# Customer Churn Modeling (Classification)
+# Customer Churn Modeling 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/drive/12k4E9SR5h2t6ITYDgad1RYUKBcOrjCdM)
 
 ## Project Overview
 This project focuses on predicting customer churn for a retail bank using supervised machine learning.
