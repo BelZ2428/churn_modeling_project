@@ -2,6 +2,8 @@
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12k4E9SR5h2t6ITYDgad1RYUKBcOrjCdM)
 
 
+# Customer Churn Modeling (Classification)
+
 ## Project Overview
 This project focuses on predicting customer churn for a retail bank using supervised machine learning.
 Customer churn prediction is a classic **imbalanced classification problem**, where missing a churned customer
@@ -66,4 +68,32 @@ Instead, we focus on:
 
 ## Final Model
 **Gradient Boosting** was selected as the final model because:
-- It provid
+- It provides a strong balance between recall and precision for churned customers
+- It achieves competitive ROC-AUC and PR-AUC scores
+- It demonstrates stable performance across validation experiments
+- Threshold analysis confirms that the default decision threshold is well calibrated
+
+---
+
+## Business Interpretation
+From a business perspective:
+- **Recall is critical**, as missing a churned customer means losing revenue without intervention
+- The model can be used to prioritize customers for retention campaigns
+- Even moderate precision is acceptable if recall is sufficiently high
+
+---
+
+## Conclusion
+The project successfully delivers a complete churn modeling pipeline:
+- Data is explored and preprocessed correctly
+- Multiple models are compared using appropriate metrics
+- Class imbalance is explicitly addressed
+- The final model choice is justified both statistically and from a business standpoint
+
+This notebook can serve as both an academic project submission and a portfolio case study.
+
+---
+
+## Author
+**Vladimir Kuznetsov [BelZ]**  
+Machine Learning / Data Science / Big Data Project
